@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="DOM.css">
+    <title>Magasin</title>
+    <link rel="icon" href="s.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <h3> les Robes </h3>
+        <div class="find">
+            <input type="text" name="search" />
+            <button>Search</button>
+        </div>
+
+    </div>
+
+
+
+    <div class="figure">
+
+
+        <div class="image">
+            
+
+            <img src="robe rouge.png" alt="" width="350px " height="400px">
+
+            <div class="legende">
+
+                <h3> Robe Rouge </h3>
+                <h4 class="price"> 10000 </h4>
+
+            </div>
+
+            <div class="compteur">
+
+                <BUTton class="dim"> - </BUTton>
+                <input class="inputqte" type="text" value="0" />
+                <button class="aug"> + </button>
+
+            </div>
+
+
+            <button class="delete"> <img src="delete.png" alt="" width="25px"> </button>
+            <button onclick="myFunction(this)" class="like"> <img src="heart.png" alt="" width="25px"> </button>
+
+
+        </div>
+
+
+
+        <div class="image">
+
+            <img src="robe soirée-rosé.jpg" alt="" width="350px" height="400px">
+
+            <div class="legende">
+
+                <h3>Robe Rosé</h3>
+                <h4 class="price"> 45500 </h4>
+
+            </div>
+
+
+            <div class="compteur">
+                <BUTton class="dim"> - </BUTton>
+                <input class="inputqte" type="text" value="0" />
+                <button class="aug"> + </button>
+            </div>
+
+
+            <button class="delete"> <img src="delete.png" alt="" width="25px"> </button>
+            <button onclick="myFunction(this)" class="like"> <img src="heart.png" alt="" width="25px"> </button>
+
+
+        </div>
+
+
+
+        <div class="image">
+
+            <img src="robe-bleu.png" alt="" width="350px" height="400px">
+
+            <div class="legende">
+
+                <h3>Robe Bleu</h3>
+                <h4 class="price"> 5600 </h4>
+
+            </div>
+
+
+            <div class="compteur">
+
+                <BUTton class="dim"> - </BUTton>
+                <input class="inputqte" type="text" value="0" />
+                <button class="aug"> + </button>
+
+            </div>
+
+            <button class="delete"> <img src="delete.png" alt="" width="25px"> </button>
+            <button onclick="myFunction(this)" class="like"> <img src="heart.png" alt="" width="25px"> </button>
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <div class="afficheur">
+        <h2>TOTAL</h2>
+        <input id="somme" type="text" value="0">
+    </div>
+
+
+    <script src="DOM.js"></script>
+
+</body>
+
+</html>
